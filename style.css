@@ -12,13 +12,17 @@ body{
 }
 
 .navbar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 100px;
-    padding: 0 50px;
-
+    overflow: hidden;
+    background-color: #333;
+    position: fixed; /* Fixed/sticky position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    display: flex; /* Use flexbox */
+    justify-content: flex-end; /* Align items to the right */
+    z-index: 1000; /* Ensure it stays on top */
+    height: 40px;
 }
+
 
 .navbar h2{
     color: rgb(103, 41, 173);
@@ -27,6 +31,7 @@ body{
 
 .navbar ul{
     display: flex;
+    margin-top: 10px;
 }
 
 .navbar ul li {
@@ -60,4 +65,5 @@ body{
 }
 .main img{
     width: 200px;
+
 }
