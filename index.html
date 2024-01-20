@@ -19,30 +19,28 @@ EMAIL: ecchang2@uci.edu
 </head>
 <body>
    
-    <div class = "navbar">
-        <h2></h2>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Skills</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-            
+    <div class="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
     </div>
 
-    <div class="main">
+    <div class="main" id="home">
         <h3>Hello, I'm <span>Eric</span>.</h3>
         <h3>I'm a full stack web developer.</h3>
         <img src="logo2.png" alt="Eric Chang's AI generated personal logo">
     </div>
   <p>
-    <!-- <a href="http://validator.w3.org/check?uri=referer">
+    <a href="http://validator.w3.org/check?uri=referer">
        W3C validator
-    </a> -->
+    </a>
   </p>
 
-  <div class="about">
+  <div class="about" id="about">
     <img src="headshot_transparent.png" alt="Eric Chang's headshot">
         <div class="info">
             <h3>About</h3> 
@@ -57,7 +55,8 @@ EMAIL: ecchang2@uci.edu
 
   </div>
 
-  <div class ="skills">
+  <div id="skills"></div>
+  <div class="skills">
     <div class ="left">
         <div class ="info">
             <h3>Skills</h3>
@@ -104,7 +103,8 @@ EMAIL: ecchang2@uci.edu
     </div>
   </div>
 
-  <section class ="projects">
+  <div id="projects"></div>
+  <section class="projects" >
     <h2 class = "projects_heading">
         Projects
     </h2>
@@ -166,14 +166,21 @@ EMAIL: ecchang2@uci.edu
 
   </section>
 
-  <section class = "contact">
+  <!-- <section class = "contact">
     <h2 class = "contact_heading">
         Contact
     </h2>
-  </section>
+  </section> -->
 
-  <footer class="footer">
-
-  </footer>
+  <footer id="contact">
+    <p>© 2024 Eric Chang. All rights reserved.</p>
+    <p>Email: <a href="mailto:ecchang2@uci.edu">ecchang2@uci.edu</a></p>
+    <a href="https://github.com/changer25" target="_blank">
+        <i class="fab fa-github"></i>
+    </a>
+    <a href="https://linkedin.com/in/ecchang2" target="_blank">
+        <i class="fab fa-linkedin"></i>
+    </a>
+</footer>
 </body>
 </html>
