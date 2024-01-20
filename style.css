@@ -88,5 +88,117 @@ body{
 
 .about .info p{
     color: whitesmoke;
-    font-size: 15px;
+    font-size: 20px;
+
+}
+
+.skills{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 50px;
+    margin-top: 100px;
+}
+.skills .left .info h3{
+    color: white;
+    font-size: 35px;
+  
+
+}
+
+.skills .left .info p {
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+.skills .right{
+    width: 420px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 13px;
+
+}
+
+.skills .right .icon{
+    display: flex;
+    background: gray;
+    align-items: center;
+    justify-content: center;
+    width: 75px;
+    height: 75px;
+    border-radius: 10px;
+    font-size: 50px;
+    border: 2px solid rgb(103, 41, 173);
+}
+
+.projects h2{
+    color: white;
+    font-size: 35px;
+    margin-top: 200px;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+.project {
+    position: relative;
+    display: flex;
+    margin-bottom: 14rem;
+    justify-content: flex-start
+}
+
+.project-image {
+    width: 85%;
+    position: relative;
+
+}
+
+.project-image img {
+    width:200px;
+    height: 250px;
+    margin-right: 50px;
+}
+
+.project-left {
+    align-self: flex-start;
+    margin-left: 22rem;
+    margin-top: 30px;
+}
+
+.project-right {
+    align-self: flex-start;
+    margin-left: 22rem;
+    margin-top: 30px;
+}
+.project-left .project_info {
+    left: -8rem;
+    margin-right: -2rem
+}
+
+.main-title {
+    font-size: 25px;
+    color: white;
+}
+.sub-title {
+    font-size: 20px; 
+    color: white;
+}
+
+.project_description {
+    font-size: 20px; 
+    color: white;
+}
+
+.project_seemore {
+    color: white; /* Set the text color to white */
+    margin-top: 10px; /* Add some space above each link */
+    display: block; /* Make each link a block element to put them on separate lines */
+    text-decoration: none; /* Optional: Removes the underline from links */
+    padding: 5px 0; /* Add some padding for better clickability */
 }
