@@ -14,12 +14,12 @@ body{
 .navbar {
     overflow: hidden;
     background-color: #333;
-    position: fixed; /* Fixed/sticky position */
-    top: 0; /* Position the navbar at the top of the page */
-    width: 100%; /* Full width */
-    display: flex; /* Use flexbox */
-    justify-content: flex-end; /* Align items to the right */
-    z-index: 1000; /* Ensure it stays on top */
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    display: flex; 
+    justify-content: flex-end; 
+    z-index: 1000; 
     height: 40px;
 }
 
@@ -217,11 +217,11 @@ footer {
 
 footer a {
     color: rgb(103, 41, 173);
-    text-decoration: none; /* Remove underline from links */
+    text-decoration: none; 
 }
 
 footer a:hover {
-    text-decoration: underline; /* Underline links on hover */
+    text-decoration: underline; 
 }
 
 
@@ -230,7 +230,43 @@ html {
 }
 
 footer i {
-    font-size: 24px; /* Icon size */
-    color: rgb(103, 41, 173); /* Icon color */
-    padding: 10px; /* Space around the icon */
+    font-size: 24px; 
+    color: rgb(103, 41, 173); 
+    padding: 10px; 
+}
+
+@media screen and (max-width: 600px) {
+    .navbar ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    .navbar ul li {
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .main, .about, .skills, .projects {
+        padding: 20px;
+    }
+    .main h3, .about .info h3, .skills .left .info h3 {
+        font-size: 24px;
+    }
+    .project-image img {
+        width: 100%;
+        height: auto;
+    }
+    .project-left, .project-right {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    footer {
+        text-align: center;
+    }
+    footer a {
+        display: block;
+        margin: 10px 0;
+    }
 }
