@@ -10,14 +10,14 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 
 1. How many assignment points do you believe you completed (replace the *'s with your numbers)?
 
-*/13
-- */1 Readme
-- */2 Basic HTML content
-- */2 Basic CSS styling
-- */2 Advanced feature
-- */3 Responsive layout
-- */1 Passes validation checks
-- */2 Embraces spirit of the assignment
+13/13
+- 1/1 Readme
+- 2/2 Basic HTML content
+- 2/2 Basic CSS styling
+- 2/2 Advanced feature
+- 3/3 Responsive layout
+- 1/1 Passes validation checks
+- 2/2 Embraces spirit of the assignment
 
 2. What (a) basic features, (b) CSS features, and (c) advanced features did you include in your portfolio?
 
@@ -36,19 +36,26 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 
 
 (c) Advanced features
-
+-Navigation Bar
 
 
 3. How long, in hours, did it take you to complete this assignment?
-
+approx. 20 hours
 
 
 4. What online resources did you consult when completing this assignment? (list specific URLs)
+https://www.theodinproject.com/lessons/foundations-introduction-to-html-and-css
 
+https://www.youtube.com/watch?v=iq123cDs4dI&t=2495s
 
+https://developer.mozilla.org/en-US/docs/Web/CSS
 
 5. What classmates or other individuals did you consult as part of this assignment? What did you discuss?
 
-
+My girlfriend (psych major) and friend from another university (premed) both gave me insight into their user experience with it.
+Just some straightfoward input on what they think about the portfolio and adjustments they suggested.
 
 6. Is there anything special we need to know in order to run your code?
+In general, I believe my portfolio is responsive. It starts getting buggy at exactly 262 px width where my portfolio layout becomes less than ideal.
+I did not account for this threshold as I believed that it is not realistic for any devices with 262 px width to be viewing my portfolio. The iPhone 4, which
+is not considered modern anymore relative to the devices we have today, is about 320 px width.
