@@ -64,6 +64,7 @@ body{
 .main h3{
     font-size: 32px;
     color: #fff;
+    text-align: center;
 }   
 
 .main h3 span{
@@ -185,10 +186,7 @@ body{
     margin-left: 22rem;
     margin-top: 30px;
 }
-/* .project-left .project_info {
-    left: -8rem;
-    margin-right: -2rem
-} */
+
 
 .main-title {
     font-size: 25px;
@@ -227,11 +225,6 @@ footer a {
     text-decoration: none; 
 }
 
-footer a:hover {
-    text-decoration: underline; 
-}
-
-
 html {
     scroll-behavior: smooth;
 }
@@ -266,27 +259,6 @@ footer i {
         margin-top: 150px;
     }
 
-    footer .start{
-        width: 90%;
-        left: 5%;
-        top: -20%;
-    }
-
-    footer .cols{
-        flex-wrap: wrap;
-    }
-
-    footer .cols .about-col{
-        flex-basis: 50%;
-    }
-
-    footer .cols .links-col{
-        flex-basis: 50%;
-    }
-
-    footer .cols .news-col{
-        flex-basis: 50%;
-    }
     .project-left {
         margin-left: 0; 
         text-align: center; 
@@ -321,18 +293,9 @@ footer i {
         display: none;
     }
 
-    .main h4{
+    .main h3{
         font-size: 24px;
     }
-
-    .main p.title{
-        font-size: 36px;
-    }
-
-    .main p.subtitle{
-        font-size: 14px;
-    }
-
 
     .about{
         flex-wrap: wrap;
@@ -387,18 +350,6 @@ footer i {
         justify-content: start;
     }
 
-    .main h4{
-        font-size: 20px;
-    }
-
-    .main p.title{
-        font-size: 28px;
-    }
-
-    .main p.subtitle{
-        font-size: 12px;
-    }
-
     .main img{
         margin-top: 40px;
         width: 150px;
@@ -415,7 +366,7 @@ footer i {
     }
 
     .skills .left .info h3{
-        font-size: 20px;
+        font-size: 35px;
     }
 
     .skills .left .info p {
@@ -428,13 +379,7 @@ footer i {
 
 @media screen and (max-width: 480px) {
     
-    .main p.title{
-        font-size: 18px;
-    }
 
-    .main p.subtitle{
-        font-size: 10px;
-    }
     .skills .left .info p {
         font-size: 20px;
         min-height: 20px; 
@@ -466,6 +411,12 @@ footer i {
         margin-top: 10px;
     }
 
+}
+
+@media screen and (max-width: 480px) {
+    .projects{
+        margin-top: 300px;
+    }   
 }
 
 .navbar ul li a:hover {
