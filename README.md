@@ -56,6 +56,7 @@ My girlfriend (psych major) and friend from another university (premed) both gav
 Just some straightfoward input on what they think about the portfolio and adjustments they suggested.
 
 6. Is there anything special we need to know in order to run your code?
+   
 In general, I believe my portfolio is responsive. It starts getting buggy at exactly 262 px width where my portfolio layout becomes less than ideal.
 I did not account for this threshold as I believed that it is not realistic for any devices with 262 px width to be viewing my portfolio. The iPhone 4, which
 is not considered modern anymore relative to the devices we have today, is about 320 px width.
