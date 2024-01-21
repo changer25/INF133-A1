@@ -22,21 +22,21 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 2. What (a) basic features, (b) CSS features, and (c) advanced features did you include in your portfolio?
 
 (a) Basic features
--At least one image, with descriptive alt attribute(s)
--Appropriate headings and paragraph text
--Links to external page(s)
--Adding custom icons from Google Material Icons or Font Awesome (Also used custom icons from elsewhere)
--Semantic HTML tags like aside or footer
+- At least one image, with descriptive alt attribute(s)
+- Appropriate headings and paragraph text
+- Links to external page(s)
+- Adding custom icons from Google Material Icons or Font Awesome (Also used custom icons from elsewhere)
+- Semantic HTML tags like aside or footer
 
 
 (b) CSS features
--Modifying padding and margins to indent content and enhance readability
--Modifying link, text color, or other colors to be visually appealing, perhaps with one of the pallette creators in the Resources section.
--Adding custom font(s) from Google fonts to add more personality (make sure to include appropriate fallbacks)
+- Modifying padding and margins to indent content and enhance readability
+- Modifying link, text color, or other colors to be visually appealing, perhaps with one of the pallette creators in the Resources section.
+- Adding custom font(s) from Google fonts to add more personality (make sure to include appropriate fallbacks)
 
 
 (c) Advanced features
--Navigation Bar
+- Navigation Bar
 
 
 3. How long, in hours, did it take you to complete this assignment?
@@ -44,11 +44,11 @@ approx. 20 hours
 
 
 4. What online resources did you consult when completing this assignment? (list specific URLs)
-https://www.theodinproject.com/lessons/foundations-introduction-to-html-and-css
+- https://www.theodinproject.com/lessons/foundations-introduction-to-html-and-css
 
-https://www.youtube.com/watch?v=iq123cDs4dI&t=2495s
+- https://www.youtube.com/watch?v=iq123cDs4dI&t=2495s
 
-https://developer.mozilla.org/en-US/docs/Web/CSS
+- https://developer.mozilla.org/en-US/docs/Web/CSS
 
 5. What classmates or other individuals did you consult as part of this assignment? What did you discuss?
 
